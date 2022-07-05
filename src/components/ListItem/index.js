@@ -11,6 +11,7 @@ function ListItem({ name, completed, tickItem }) {
       onClick={tickItem}
     >
       {name}
+      {completed}
     </li>
   );
 }
